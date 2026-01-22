@@ -690,10 +690,3 @@ import AVFoundation
           try audioFile.write(from: self)                                                                                                                                     
       }                                                                                                                                                                       
   }                                                                                                                                                                           
-                                                                                                                                                                              
-  The only change is adding this new initializer after the existing public init():                                                                                            
-                                                                                                                                                                              
-      public init(customModelURL: URL) {                                                                                                                                      
-          kokoroTTSEngine = KokoroTTS(customURL: customModelURL)                                                                                                              
-          setupAudioSystem()                                                                                                                                                  
-      }

@@ -44,4 +44,4 @@
               path: "mlx_audio_swift/tts/Tests"                                                                                                                                                                       
           ),                                                                                                                                                                                                          
       ]                                                                                                                                                                                                               
-  )                                         
+  )

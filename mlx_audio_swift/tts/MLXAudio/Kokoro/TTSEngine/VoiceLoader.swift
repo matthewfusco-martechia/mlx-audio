@@ -6,11 +6,11 @@ import MLX
 import MLXNN                                                                                                                                              
                                                                                                                                                             
   // Utility class for loading voices                                                                                                                       
-  class VoiceLoader {                                                                                                                                       
+  public class VoiceLoader {                                                                                                                                                                                                                                                                                     
     private init() {}                                                                                                                                       
                                                                                                                                                             
     // Custom directory for downloaded voice files                                                                                                          
-    static var customVoiceDirectory: URL?                                                                                                                   
+  public static var customVoiceDirectory: URL?                                                                                                                                                                                                                                                  
                                                                                                                                                             
     static var availableVoices: [TTSVoice] {                                                                                                                
       Array(Constants.voiceFiles.keys)                                                                                                                      

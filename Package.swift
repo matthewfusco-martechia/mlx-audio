@@ -1,5 +1,5 @@
 // swift-tools-version:5.9                                                                                                                                                                                          
-  import PackageDescription                                                                                                                                                                                           
+import PackageDescription                                                                                                                                                                                           
                                                                                                                                                                                                                       
   let package = Package(                                                                                                                                                                                              
       name: "mlx-audio",                                                                                                                                                                                              

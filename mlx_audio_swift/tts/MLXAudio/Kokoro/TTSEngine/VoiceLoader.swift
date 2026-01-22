@@ -29,7 +29,7 @@ import MLXNN
       }                                                                                                                                                     
                                                                                                                                                             
       // Fall back to bundle                                                                                                                                
-      guard let filePath = Bundle.main.path(forResource: file, ofType: ext) else {                                                                          
+      guard let filePath = Bundle.module.path(forResource: file, ofType: ext) else {                                                                         
         fatalError("[VoiceLoader] Voice file not found: \(file).\(ext). Set VoiceLoader.customVoiceDirectory or bundle the voice files.")                   
       }                                                                                                                                                     
       print("[VoiceLoader] Loading voice from bundle: \(filePath)")                                                                                         
